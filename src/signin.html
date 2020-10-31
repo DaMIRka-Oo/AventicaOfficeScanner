@@ -4,24 +4,34 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
 <body>
 <div class="wrapper-sign-in">
-<main>
-    <!--форма входа. добавить ссылку-->
-    <form class="sign-in-form" action="" method="post">
-        <a href="https://aventi.ca">
-            <img src="image/logo.svg" alt="Логотип Aventica Office Scanner">
-        </a>
-        <input class="user-info" id ="user-surname-id" type="text" name="surname" value="" placeholder="Адрес электронной почты">
-        <input class="user-info" id="user-name-id" type="password" name="name" value="" placeholder="Пароль">
-        <input class="user-login" id="sign-in-id" type="button" name="sign-in" value="Войти">
-        <a class="forgot_password " href="#">Забыли пароль?</a>
-        <hr>
-        <a href="registration-form.html" class="registr-but">Зарегистрироваться</a>
-    </form>
-
-
-</main>
+    <section class="section-form">
+        <main>
+            <!--форма входа. добавить ссылку-->
+            <form class="sign-in-form" action="" method="post">
+                <a href="https://aventi.ca">
+                    <img src="image/logo.svg" alt="Логотип Aventica Office Scanner">
+                </a>
+                <input class="user-info" id ="user-surname-id" type="text" name="surname" value="" placeholder="Адрес электронной почты">
+                <input class="user-info" id="user-name-id" type="password" name="name" value="" placeholder="Пароль">
+                <input class="user-login" id="sign-in-id" type="button" name="sign-in" value="Войти">
+                <a class="forgot_password " href="failed-to-login.html">Забыли пароль?</a>
+                <hr>
+                <a href="registration-form.html" class="registr-but">Зарегистрироваться</a>
+            </form>
+        </main>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-info">E-mail: hello@aventica.ru</p>
+            <p class="footer-info">Телефон: 8(499)653-50-67</p>
+            <a href="https://www.facebook.com/Aventicalab/" class="footer-link"><i class="fab fa-facebook-square"></i></a>
+            <p class="footer-info">© CodeBusters, 2020</p>
+        </div>
+    </footer>
 </div>
 </body>
 </html>
